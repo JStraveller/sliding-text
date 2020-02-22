@@ -10,7 +10,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) scale(1.5);
   background: #546de5;
   padding: 0 40px;
   height: 60px;
@@ -26,30 +26,35 @@ body {
 }
 
 .line:first-child {
-  animation: anim 12s infinite;
+  animation: anim 10s infinite;
 }
 
 @keyframes anim {
   0%{
     margin-top: 0;
   }
-  16%{
+  15%{
     margin-top: -60px;
   }
-  33%{
+  25%{
     margin-top: -120px;
   }
-  50%{
+  35% {
     margin-top: -180px;
   }
-  66%{
+  50%{
+    margin-top: -240px;
+  }
+  60%{
+    margin-top: -180px;
+  }
+  70% {
     margin-top: -120px;
   }
-  82%{
+  80% {
     margin-top: -60px;
   }
-  100%{
+  95%{
     margin-top: 0;
   }
-
 }
