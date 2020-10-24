@@ -1,3 +1,3 @@
 # Test css animation
 ## Demo
-https://jstraveller.github.io/sliding-text/
+https://aaleo402.github.io/sliding-text/
